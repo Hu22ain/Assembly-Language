@@ -35,3 +35,5 @@ INCLUDE Irvine32.inc
         mov edx, offset gradeD
         call writeString
         jmp done
+    Check_F:
+        mov edx, offset gradeF  
